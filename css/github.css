@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #efefef;
+    font-size: 14px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #222
+}
+
+#searchBlock article {
+    width: 1200px;
+    margin: 10px auto;
+    background: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 0px #ccc;
+}
+
+#searchBlock article form {
+    display: flex;
+    width: 98%;
+    height: 70px;
+    align-items: center;
+}
+
+#searchBlock article form input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 4px 0px 0px 4px;
+    background: #efefef;
+
+}
+
+#searchBlock article form button {
+    background: crimson;
+    padding: 12px 30px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    text-shadow: 1px 1px 1px #ccc;
+    border-radius: 0 4px 4px 0px;
+
+}
+
+.microphone {
+    position: relative;
+}
+
+.microphone i {
+    position: absolute;
+    left: -27px;
+    top: -12px;
+    font-size: 23px;
+    color: crimson;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.microphone i:hover {
+    color: rgba(0, 89, 255, 0.877);
+
+}
+
+#ProfileBlock article {
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 0px #ccc;
+    display: flex;
+}
+
+#ProfileBlock article .leftBlock {
+    flex-basis: 25%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ProfileBlock article .rightBlock {
+    flex-basis: 75%;
+    padding: 10px;
+}
+
+.leftBlock figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #efefef;
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.leftBlock img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+h4 {
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 4px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+h5 {
+    padding: 6px 7px;
+    border-bottom: 1px solid #ccc;
+    margin: 1px 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: #efefef;
+    font-size: 14px;
+}
+
+.rightBlock div#usersRepo {
+    background: #fff;
+    color: #111;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+}
+
+.rightBlock>div>span {
+    flex-basis: 25%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.rightBlock div span:nth-child(4) {
+    border-right: none;
+}
+
+span.innerSpan {
+    display: flex;
+    background: #cccccc54;
+    height: 30px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin: -4px 8px;
+    border-radius: 20%;
+    padding: 9px;
+}
